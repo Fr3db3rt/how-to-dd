@@ -37,9 +37,9 @@ fd         null    sda     sdb2  sdc1  sdd   stdin   windows
 ~~~
 
 This is usefull in dd-commands
-~~~
+~~~bash
 # like
-dd if=\\.\PHYSICALDRIVE0 of=\path\to\WDC WD10JPVX-75JC3T0.dd status=progress
+dd if=\\.\PHYSICALDRIVE0 of="\path\to\WDC WD10JPVX-75JC3T0.dd" status=progress
 # or
-dd if=/dev/sda of=\path\to\WDC WD10JPVX-75JC3T0.dd status=progress
+dd if=/dev/sda of="\path\to\WDC WD10JPVX-75JC3T0.dd" status=progress
 ~~~
